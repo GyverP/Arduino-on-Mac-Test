@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Arduino on Mac Test
+  host: Arduino-on-Mac-Test
+  disk_quota: 1024M
+  services:
+  - Arduino on Mac Test-cloudantNoSQLDB
+  - Arduino on Mac Test-iotf-service
